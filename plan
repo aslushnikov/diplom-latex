@@ -21,3 +21,4 @@ Implementation details:
 
 + three.js slowleness (tests with intersection)
 + node-thrift slowleness
+- node-thrift slowleness
