@@ -1,0 +1,23 @@
+Implementation details:
++ rotation of object
++ tessellation
++ three.js
++ tools design, strategy pattern
++ ajax
++ modify tool and it's math
++ EventBus for two-directional module communication while staying
+  loosely-tightened
+
++ node.js
++ express.js
++ jade
++ converting loaded objects, database on FS
+
++ thrift
++ node-thrift and it's bug
++ c++ algo organization and scripts
+
++ heroku
+
++ three.js slowleness (tests with intersection)
++ node-thrift slowleness

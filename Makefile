@@ -1,0 +1,2 @@
+build:
+	pdflatex text.tex
