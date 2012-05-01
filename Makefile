@@ -1,6 +1,6 @@
 compile:
-	pdflatex -output-directory build text.tex
-	mv build/text.pdf build/_text.pdf
-	rm build/text.*
-	mv build/_text.pdf build/text.pdf
+	pdflatex -output-directory build diplom.tex
+	#mv build/diplom.pdf build/_diplom.pdf
+	#rm build/diplom.*
+	#mv build/_diplom.pdf build/diplom.pdf
 
