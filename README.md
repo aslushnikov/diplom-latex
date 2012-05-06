@@ -2,10 +2,12 @@
 
 ## See Latest
 
-[PDF of this paper](http://udalov.org:2700/compile?url=https%3A%2F%2Fraw.github.com%2Faslushnikov%2Fdiplom-latex%2Fmaster%2Fdiplom.tex)
+[PDF of this paper](http://latex.aslushnikov.com/compile?url=https%3A%2F%2Fraw.github.com%2Faslushnikov%2Fdiplom-latex%2Fmaster%2Fdiplom.tex)
 
-The link provided by my service
-[latex-online](https://github.com/aslushnikov/latex-online)
+The link is provided by my service
+[latex-online](https://github.com/aslushnikov/latex-online),
+and to be fair my wish of having such a link in this README was the only intent to
+create it.
 
 ## About
 This is the text of my diploma written in russian. The source code of the
