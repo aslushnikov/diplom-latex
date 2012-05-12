@@ -2,7 +2,8 @@
 
 ## See Latest
 
-[PDF of this paper](http://latex.aslushnikov.com/compile?url=https%3A%2F%2Fraw.github.com%2Faslushnikov%2Fdiplom-latex%2Fmaster%2Fdiplom.tex)
+[PDF of this
+paper](http://latex.aslushnikov.com/compile?git=git://github.com/aslushnikov/diplom-latex.git&target=diplom.tex)
 
 The link is provided by my service
 [latex-online](https://github.com/aslushnikov/latex-online),
