@@ -5,6 +5,58 @@
 \usepackage[utf8]{inputenc}
 \usepackage[english,russian]{babel}
 \usepackage{color}
+
+% PDF Search & cut'n'paste
+\usepackage{cmap}
+
+% Indent the first paragraph as well
+\usepackage{indentfirst}
+
+% According to GOST, sections should be called chapters in diploma
+\usepackage{titlesec}
+
+% Detect whether PDFLaTeX is in use
+\usepackage{ifpdf}
+
+% Graphics
+\ifpdf
+    \usepackage[pdftex]{graphicx}
+\else
+    \usepackage{graphicx}
+\fi
+
+% Hyperlinks
+\ifpdf
+        \usepackage[pdftex]{hyperref}
+\else
+        \usepackage{hyperref}
+\fi
+
+\hypersetup{
+        unicode=true,
+        pdftitle={
+        },
+        pdfauthor={},
+        pdfkeywords={
+        },
+        colorlinks,
+        citecolor=black,
+        filecolor=black,
+        linkcolor=black,
+        urlcolor=blue
+}
+
+% Russian-styled figure and table captions
+\usepackage[labelsep=period]{caption}
+% This declaration makes TeX less fussy about line breaking. This can
+% prevent overfull boxes, but may leave too much space between words.
+% As this really isn't a fine art typography, we'll turn it on, so
+% we won't have paragraphs which spans on the margins...
+\sloppy
+
+% Page numbering at the right topmost part of the page
+\pagestyle{myheadings}
+
 \usepackage{listings}
 \let\stdsection\section
 \renewcommand\section{\newpage\stdsection}
