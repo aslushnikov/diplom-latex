@@ -1251,17 +1251,23 @@ JavaScript и работает за $O(N)$, где $N$ - количество п
 вычислений.
 
 \subsubsection{результаты}
+\begin{table}[ht]
+\caption{Серверные вычисления, 3G}
 \begin{center}
-\scalebox{0.9}{%
+\scalebox{1.0}{%
     \begin{tabular}{ | c | c | c | c | c | c | }
     \hline
     Количество полигонов & 3098 & 12334 & 23496 & 114344 & 254714 \\
     \hline
-    Задержка, мс & 231 & 709 & 2682 & 7715 & 36996 \\
+    LAN задержка, мс & 757 & 1569 & 4694 & 9166 & 34583 \\
+    \hline
+    3G задержка, мс & 2429 & 8753 & 4694 & 9166 & 34583 \\
     \hline
     \end{tabular}
 }
 \end{center}
+\label{table:nonlin}
+\end{table}
 
 \subsubsection{выводы}
 
