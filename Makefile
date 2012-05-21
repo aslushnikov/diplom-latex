@@ -1,15 +1,8 @@
-HAS_TOC=$(shell grep -l '\tableofcontents' diplom.tex | wc -l)
-
 compile:
-	pdflatex -file-line-error -halt-on-error -output-directory build diplom.tex
-# If there is a tableofcontents tag in diplom.tex, then we have to
-# compile it twice
-ifneq ($(HAS_TOC), "0")
-	pdflatex -halt-on-error -output-directory build diplom.tex
-endif
-
-	mv build/diplom.pdf build/_diplom.pdf
-	rm build/diplom.*
-	mv build/_diplom.pdf build/diplom.pdf
+	rubber -d diplom.tex
+	mv diplom.pdf build/diplom.pdf
+	mv diplom.tex _diplom.tex
+	rm diplom.*
+	mv _diplom.tex diplom.tex
 
 
