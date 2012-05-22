@@ -37,11 +37,10 @@ void scale_x2(Geometry& _return, const Geometry& geom) {
     столько же на отдачу
 \end{itemize}
 
-В результате проведения экспериментов были получены следующие результаты,
-сведенные в единую таблицу
+В результате проведения экспериментов были получены результаты,
+сведенные в единую таблицу ~\ref{table:nonlin}
 
 \begin{table}[ht]
-\caption{Серверные вычисления, 3G}
 \begin{center}
 \scalebox{1.0}{%
     \begin{tabular}{ | c | c | c | c | c | c | }
@@ -53,9 +52,11 @@ void scale_x2(Geometry& _return, const Geometry& geom) {
     3G задержка, мс & 2291 & 8014 & 31963 & 78986 & - \\
     \hline
     Взаимодействие node-thrift & 356 & 931 & 2670 & 7005 & 40663 \\
+    \hline
     \end{tabular}
 }
 \end{center}
+\caption{Задержка серверных вычислений}
 \label{table:nonlin}
 \end{table}
 

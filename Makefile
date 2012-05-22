@@ -4,5 +4,6 @@ compile:
 	mv diplom.tex _diplom.tex
 	rm diplom.*
 	mv _diplom.tex diplom.tex
+	rm *.aux
 
 
